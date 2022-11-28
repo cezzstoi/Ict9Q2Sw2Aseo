@@ -1,0 +1,78 @@
+<html>
+<head>
+	<title>Sign Up Page</title>
+</head>
+<style>
+body {
+    font-family: 'Montserrat';font-size: 22px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #AEE54D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #AEE54D;
+}
+
+div.container {
+  border-radius: 5px;
+  background-color: #cd7743;
+  padding: 20px;
+}
+</style>
+<body bgcolor="#679750">
+
+<p>Fill in with your information!</p>
+
+<div class="container">
+  <form action="index.html">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." style="font-family: Montserrat;" style="font-size: 18px;">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." style="font-family: Montserrat;" style="font-size: 18px;">
+
+    <label for="country">Continent</label>
+    <select id="country" name="country">
+      <option style="font-family: Montserrat;" style="font-size: 18px;">Europe</option>
+      <option style="font-family: Montserrat;" style="font-size: 18px;">Asia</option>
+      <option style="font-family: Montserrat;" style="font-size: 18px;">North America</option>
+      <option style="font-family: Montserrat;" style="font-size: 18px;">South America</option>
+      <option style="font-family: Montserrat;" style="font-size: 18px;">Africa</option>
+      <option style="font-family: Montserrat;" style="font-size: 18px;">Antarctica</option>
+      <option style="font-family: Montserrat;" style="font-size: 18px;">Oceania</option>
+    </select>
+
+    <label for="country">Closest Branch</label>
+    <select id="country" name="country">
+      <option style="font-family: Montserrat;" style="font-size: 18px;">Target</option>
+      <option style="font-family: Montserrat;" style="font-size: 18px;">Wallmart</option>
+      <option style="font-family: Montserrat;" style="font-size: 18px;">SM Malls</option>
+      <option style="font-family: Montserrat;" style="font-size: 18px;">Robinsons Malls</option>
+    </select>
+  
+    <a href="index.html">
+      <input type="submit">
+    </a>
+  </form>
+</div>
+</body>
+</html>
